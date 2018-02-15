@@ -1,0 +1,569 @@
+@font-face {
+    font-family: 'myriad';
+    src: url('../fonts/myriad/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),  url('MyriadPro-Regular.otf')  format('opentype'),
+           url('../fonts/myriad/MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf')  format('truetype'), url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'mont-bold';
+    src: url('../fonts/Montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mont-e-bold';
+    src: url('../fonts/Montserrat/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-b-italic';
+    src: url('../fonts/Montserrat/montserrat-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-e-bold';
+    src: url('../fonts/Montserrat/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-e-b-italic';
+    src: url('../fonts/Montserrat/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-e-light';
+    src: url('../fonts/Montserrat/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-e-l-italic';
+    src: url('../fonts/Montserrat/montserrat-extralightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-italic';
+    src: url('../fonts/Montserrat/montserrat-italic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont-light';
+    src: url('../fonts/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('../fonts/Montserrat/montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'mont-medium';
+    src: url('../fonts/Montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratmedium_italic';
+    src: url('../fonts/Montserrat/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mont-regular';
+    src: url('../fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-LightExt';
+    src: url('../fonts/HelveticaNeue-LightExt (1)/HelveticaNeue-LightExt.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeue-LightExt (1)/HelveticaNeue-LightExt.otf')  format('opentype'),
+           url('../fonts/HelveticaNeue-LightExt (1)/HelveticaNeue-LightExt.woff') format('woff'), url('../fonts/HelveticaNeue-LightExt (1)/HelveticaNeue-LightExt.ttf')  format('truetype'), url('../fonts/HelveticaNeue-LightExt (1)/HelveticaNeue-LightExt.svg#HelveticaNeue-LightExt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  button:focus,.input:focus{
+      outline: none;
+  }
+
+    #navbar-primary .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  #navbar-primary .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  #navbar-primary .navbar-nav > li > a {
+    padding:0;
+  }
+  
+
+  .navbar-nav {
+    text-align: justify !important;
+    font-size: 1em; /* IE 9/10 fix */
+  }
+  .navbar-nav li {
+    display: inline-block;
+  }
+  .navbar-nav:after {
+    content: '';
+    width: 100%; /* Ensures justification for single lines */
+    display: inline-block;
+  }
+
+  .top-black{
+      width:100%;
+      border-radius: 50px;
+      height: 40px;
+      text-transform: uppercase;
+      font-size:1.2em;
+      background:black;
+      color:white;
+      padding: 10px 20px !important;
+  }
+
+  .tele-top{
+    width: 30px;
+    margin-top: -5px;
+  }
+
+  #menu-outer {
+    
+    margin-top: 10px;
+    /* height: 84px; */
+	
+    }
+
+    .table {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+    }
+
+    ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+    text-align: center;
+	}
+	ul#horizontal-list li {
+		display: inline;
+    }
+    
+    .ok-desktop{
+        display:none;
+    }
+
+    .cus-nav-li a ,.cus-nav-li a:hover{
+        color: black;
+        text-decoration: none;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-family: 'HelveticaNeue-LightExt';
+    }
+
+    .margin-right-li {
+        margin-right: 20px;
+    }
+
+    .header{
+        background:white;
+    }
+
+    .background-gif{
+        background-image: url(../images/bckgscreen.gif);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+   
+    }
+    
+    .amicorum-head1{
+        text-align: center;
+        font-size:2.5em;
+        font-weight: bold;
+        padding-top: 50px;
+        color: black;
+        font-family: 'mont-bold';
+        text-transform: uppercase;
+    }
+
+    .platform-head{
+        text-align: center;
+        font-size:2.8em;
+        font-weight: bold;
+        padding-top: 15px;
+        color: black;
+        font-family: 'mont-regular';
+        text-transform: uppercase;
+    }
+
+    .vision-head{
+    font-family: 'mont-bold';
+    font-size:2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    }
+
+    .registration-middle{
+        font-family: 'mont-bold';
+        width: 100%;
+        text-transform: uppercase;
+        margin: 0 auto;
+        height: 55px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: none; 
+        font-size:1.6em;
+        border-radius: 26px; 
+    }
+
+    .registration-btn-div{
+        width: 30%;
+        padding-top: 240px;
+        margin:0 auto;
+    }
+
+    .currency-head{
+        text-align: center;
+        font-family:'myriad';
+        width: 100%;
+        padding-top: 7px;
+        color: white;
+        border: none;
+        font-size: 1em;
+    }
+
+    .currency-list {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .real-icon-wrap2 {
+        text-align: justify;
+        padding-left:0;
+        font-size: 1em; /* IE 9/10 fix */
+      }
+      .real-icon-wrap2 li {
+        display: inline-block;
+      }
+      .real-icon-wrap2:after {
+        content: '';
+        width: 100%; /* Ensures justification for single lines */
+        display: inline-block;
+      }
+    
+      .real-icon-wrap2 li i{
+          color:white;
+      }
+      .icon-round{
+        position: relative;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        padding-top: 8px;
+        text-align: center;
+     
+    }
+
+    #clockdiv{
+        font-family: 'mont-regular';
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        width: 100%;
+    
+        padding-bottom: 20px;
+
+     
+        
+    }
+    
+    #clockdiv > div{
+        margin-top: 5px;
+        width: 100px;
+        height: 87px;
+        border-radius: 3px;
+        background: white;
+        display: inline-block;
+        color: black;
+    }
+    .smalltext{
+        font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 25px !important;
+    }
+    .clock-day{
+    color: whitesmoke;
+    margin-top: -20px;
+    font-family: 'mont-bold';
+    font-size: 12px;
+    }
+
+    .trans-black{
+    background-color: rgba(0,0,0,0.5);
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 44px;
+    }
+
+    .trans-black:nth-child(2){
+        margin-top:50px;
+    }
+
+    .about{
+    padding-top: 50px;
+    background-image: url('../images/secondbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-top: -10px;
+    }
+
+
+    .white-clr{
+    text-align: center;
+    color: white;
+    font-family: 'mont-bold';
+    font-size: 2.5em;
+    }
+
+    .p-child-text{
+        padding: 15px;
+        padding-left: 115px;
+        padding-right: 115px;
+        text-align: justify;
+        font-family: 'mont-light';
+        font-size: 1.3em;;
+        color: white;
+        margin-bottom: 0;
+        line-height: 2.2;
+    }
+
+
+
+    .inno-head {
+        font-family: 'mont-bold';
+        text-align: center;
+        font-weight: 300;
+        font-size: 35px;
+        color: black;
+    }
+
+    .about-amic-dbl-left {
+        background-color: rgba(215,220,225,0.7);
+        border-radius: 5px;
+        position: relative;
+        float: left;
+        width: 48%;
+        height: auto;
+        margin-right: 4%;
+        color: black;
+    }
+
+
+    .about-amic-dbl-left {
+        background-color: rgba(215,220,225,0.7);
+        border-radius: 5px;
+        position: relative;
+        float: left;
+        width: 48%;
+        height: auto;
+        margin-right: 4%;
+        color: black;
+    }
+
+    .about-amic-dbl-right{
+        background-color: rgba(215,220,225,0.7);
+        border-radius: 5px;
+        position: relative;
+        float: left;
+        height: auto;
+        width: 48%;
+        color: black;
+        margin-bottom: 40px;
+    }
+
+    .inno-row1-wrap{
+        position: relative;
+        width: 100%;
+        float: left;
+        padding-bottom: 20px;
+    }
+    .row1-right{
+        position: relative;
+        width: 80%;
+        float: left;
+    }
+    .row1-left{
+        position: relative;
+        float: left;
+        width: 20%;
+    }
+
+    .inno-blue-wrap {
+        color: white;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        padding-left: 30px;
+        padding-top: 40px;
+        border-radius: 5px;
+    }
+
+    .ticker-div {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .ticker-button {
+        background-color: #87bdec;
+        position: relative;
+        width: 100%;
+        height: 33px;
+        border: 1px solid #87bdec;
+        margin-bottom: 20px;
+    }
+    .about-amic-dbl {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .ticker-button2 {
+        background-color: #87bdec;
+        position: relative;
+        width: 100%;
+        height: 33px;
+        border: 1px solid #87bdec;
+        margin-bottom: 20px;
+    }
+
+    .up-head-icon {
+        width: 35px;
+        height: 30px;
+    }
+    
+    .show-hide2{
+       
+        height:400px;
+    }
+    .up-head-icon {
+        width: 35px;
+        height: 30px;
+    }
+
+
+    @media only screen and (max-width: 640px){
+
+        #menu-outer{
+            display:none;
+        }
+
+        .registration-btn-div {
+            width: 80%;
+            padding-top: 20px;
+            margin: 0 auto;
+        }
+
+        #clockdiv > div {
+            width: 24%;
+            height: 50px;
+        }
+
+        .smalltext {
+            font-size: 34px;
+           
+        }
+
+        .currency-list{
+            margin-bottom:20px;
+        }
+
+    }
